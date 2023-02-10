@@ -1,0 +1,33 @@
+Project Title: Fire Alarm System
+
+Objective: 
+The goal of this project is to design a fire alarm system that uses a flame sensor and an Arduino Uno to detect the presence of fire and sound an alarm. 
+The system will alert the homeowner or building occupants of a fire, allowing them to evacuate the area quickly and safely.
+
+Components:
+Arduino Uno
+Flame Sensor
+Piezo Buzzer
+Jumper Wires
+Breadboard
+
+Functionality:
+The flame sensor will be used to detect the presence of fire. 
+When the flame sensor detects a fire, it will trigger the piezo buzzer to sound an alarm. 
+The buzzer will continue to sound until the fire is extinguished or the system is manually reset. 
+The Arduino Uno will be used to control the flame sensor and the piezo buzzer.
+
+Setup:
+Connect the flame sensor to the Arduino board.
+Connect the piezo buzzer to the Arduino board.
+Connect the jumper wires to the appropriate pins on the Arduino board, flame sensor, and piezo buzzer.
+Upload the code to the Arduino board.
+
+Code:
+The code for the fire alarm system will be written in the Arduino Integrated Development Environment (IDE). 
+The code will use the library for the flame sensor to detect the presence of fire. The code will include conditional statements to ensure that the buzzer only sounds when a fire is detected. 
+The code will also include a reset button or function to manually reset the system after a fire.
+
+Conclusion:
+The fire alarm system using a flame sensor and an Arduino Uno is a simple and effective solution for detecting fires and alerting building occupants. 
+This system combines the capabilities of both the flame sensor and the piezo buzzer to create a reliable fire detection system. With its easy setup and customizable code, this system is a great choice for anyone looking to improve their fire safety measures.
